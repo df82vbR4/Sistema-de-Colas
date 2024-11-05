@@ -144,8 +144,3 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 3. Realiza tus cambios y haz un commit (git commit -m 'Añadir nueva funcionalidad').
 4. Sube tus cambios (git push origin feature/nueva-funcionalidad).
 5. Abre un Pull Request.
-
-## Autores
-1. Camila Ballini
-2. Yahna Chee
-3. Adriana Morales
