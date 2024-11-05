@@ -135,7 +135,7 @@ Las solicitudes deben ser de un tipo válido (VIP, Preferencial, Regular).
 
 ## Enlaces
 1. Repositorio GitHub: https://github.com/df82vbR4/Sistema-de-Colas.git
-2. Video de Presentación: 
+2. Video de Presentación: https://youtu.be/CqknqNBYvxY
 
 ## Contribuciones
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
