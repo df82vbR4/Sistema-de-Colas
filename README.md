@@ -78,7 +78,7 @@ Este proyecto requiere un compilador de C++ que soporte el estándar C++11 o sup
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/df82vbR4/Sistema-de-Colas.git
+   git clone https://github.com/df82vbR4/Sistema-de-Colas
    cd Sistema-de-Colas
    
 2. Compila el código:
@@ -134,7 +134,7 @@ Al ejecutar el programa, se mostrará un menú con las siguientes opciones:
 Las solicitudes deben ser de un tipo válido (VIP, Preferencial, Regular).
 
 ## Enlaces
-1. Repositorio GitHub: https://github.com/df82vbR4/Sistema-de-Colas.git
+1. Repositorio GitHub: https://github.com/df82vbR4/Sistema-de-Colas
 2. Video de Presentación: 
 
 ## Contribuciones
