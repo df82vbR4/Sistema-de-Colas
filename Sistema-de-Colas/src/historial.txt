@@ -1,0 +1,9 @@
+1 1 Juan VIP Activación de Tarjeta Atendida
+2 2 Jorge Regular Reposición de Tarjeta Atendida
+3 3 Ana VIP Reclamo de Cobro No Reconocido Atendida
+4 4 Pedro Regular Activación de Tarjeta Atendida
+5 5 Sofia Regular Activación de Tarjeta Atendida
+6 6 Luis Preferencial Reposición de Tarjeta Atendida
+7 7 Carlos VIP Activación de Tarjeta Atendida
+8 8 Laura Preferencial Reclamo de Cobro No Reconocido Atendida
+9 9 Maria Preferencial Reposición de Tarjeta Atendida

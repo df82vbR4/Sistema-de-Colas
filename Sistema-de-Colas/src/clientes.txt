@@ -1,0 +1,9 @@
+1 Juan VIP Activación de Tarjeta
+2 Jorge Regular Reposición de Tarjeta
+3 Ana VIP Reclamo de Cobro No Reconocido
+4 Pedro Regular Activación de Tarjeta
+5 Sofia Regular Activación de Tarjeta
+6 Luis Preferencial Reposición de Tarjeta
+7 Carlos VIP Activación de Tarjeta
+8 Laura Preferencial Reclamo de Cobro No Reconocido
+9 Maria Preferencial Reposición de Tarjeta
