@@ -15,7 +15,7 @@ Este programa simula el funcionamiento de las colas en un banco. Permite gestion
 3. ‘historial.txt’: Archivo de texto que almacena el historial de solicitudes atendidas.
 
 ## Estructuras de Datos Utilizadas
-1. **Cola (Queue)**:
+- **Cola (Queue)**:
   - Utilizada para manejar la cola de clientes que esperan ser atendidos presencialmente.
   - Permite el acceso al siguiente cliente en la fila siguiendo el principio FIFO (First In, First Out).
   - Funciones:
@@ -82,20 +82,21 @@ Este proyecto requiere un compilador de C++ que soporte el estándar C++11 o sup
    cd Sistema-de-Colas
    
 2. Compila el código:
+   ```bash
    g++ -o sistema src/*.cpp
    
-3. Ejecuta el programa:
+4. Ejecuta el programa:
+   ```bash
    ./sistema
 
-4. Interacción: Sigue las instrucciones del menú para agregar solicitudes, atender solicitudes, mostrar el historial, consultar estados y atender clientes.
+6. Interacción: Sigue las instrucciones del menú para agregar solicitudes, atender solicitudes, mostrar el historial, consultar estados y atender clientes.
    
-5. Añadir los cambios a GitHub (Terminal de la IDE):
+7. Añadir los cambios a GitHub, hacer un commit y subir los cambios:
+   ```bash
    git add .
 
-   Hacer un commit:
    git commit -m "Initial commit with project structure and README"
 
-   Subir los cambios:
    git push origin main
 
 ## Instrucciones de Uso
@@ -109,32 +110,39 @@ Al ejecutar el programa, se mostrará un menú con las siguientes opciones:
 6. Salir
 
 ## Funciones Principales
-1. agregarSolicitud: Agrega una nueva solicitud al sistema (virtual). Ingresa el ID del cliente, nombre, tipo de solicitud y descripción.
-2. atenderSolicitud: Atiende la siguiente solicitud (virtual) en espera (en la cola de prioridades).
-3. mostrarHistorial: Muestra el historial de solicitudes atendidas (virtuales precargadas y añadidas recientemente).
-4. consultarEstado: Proporciona el estado actual de una solicitud específica (virtual).
-5. AtenderCliente: Atiende al siguiente cliente en la cola en el banco.
-6. cargarHistorialDesdeArchivo: Carga solicitudes desde un archivo para el historial.
-7. cargarClientesDesdeArchivo: Carga clientes desde un archivo y los agrega al sistema.
+1. agregarSolicitud:
+   - Agrega una nueva solicitud al sistema (virtual). Ingresa el ID del cliente, nombre, tipo de solicitud y descripción.
+2. atenderSolicitud:
+   - Atiende la siguiente solicitud (virtual) en espera (en la cola de prioridades).
+3. mostrarHistorial:
+   - Muestra el historial de solicitudes atendidas (virtuales precargadas y añadidas recientemente).
+4. consultarEstado:
+   - Proporciona el estado actual de una solicitud específica (virtual).
+5. AtenderCliente:
+   - Atiende al siguiente cliente en la cola en el banco.
+6. cargarHistorialDesdeArchivo:
+   - Carga solicitudes desde un archivo para el historial.
+7. cargarClientesDesdeArchivo:
+   - Carga clientes desde un archivo y los agrega al sistema.
 
 ## Archivos de Datos
 1. clientes.txt
-   Este archivo debe contener una lista de clientes, con cada línea en el siguiente formato:
-   ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción
+   - Este archivo debe contener una lista de clientes, con cada línea en el siguiente formato:
+   - ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción
       
-   Ejemplo:
-   1 Juan VIP Reposición de Tarjeta
-   2 Maria Preferencial Activación de Tarjeta
-   3 Pedro Regular Reclamo de Cobro No Reconocido
+   - Ejemplo:
+   - 1 Juan VIP Reposición de Tarjeta
+   - 2 Maria Preferencial Activación de Tarjeta
+   - 3 Pedro Regular Reclamo de Cobro No Reconocido
       
 2. historial.txt
-   Este archivo contiene un registro de las solicitudes atendidas, con el siguiente formato:
-   ID_Solicitud ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción Estado
+   - Este archivo contiene un registro de las solicitudes atendidas, con el siguiente formato:
+   - ID_Solicitud ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción Estado
 
-	Ejemplo: 
-   1 1 Juan VIP Reposición de Tarjeta Pendiente
-   2 2 Maria Preferencial Preferencial Activación de Tarjeta En Proceso
-   3 3 Pedro Regular Reclamo de Cobro No Reconocido Atendida
+   - Ejemplo: 
+   - 1 1 Juan VIP Reposición de Tarjeta Pendiente
+   - 2 2 Maria Preferencial Preferencial Activación de Tarjeta En Proceso
+   - 3 3 Pedro Regular Reclamo de Cobro No Reconocido Atendida
 
 ## Limitaciones
 Las solicitudes deben ser de un tipo válido (VIP, Preferencial, Regular).
