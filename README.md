@@ -119,16 +119,16 @@ Al ejecutar el programa, se mostrará un menú con las siguientes opciones:
 ## Archivos de Datos
 1. **clientes.txt**: Este archivo debe contener una lista de clientes, con cada línea en el siguiente formato: ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción
    - Ejemplo:
-    - 1 Juan VIP Reposición de Tarjeta
-    - 2 Maria Preferencial Activación de Tarjeta
-    - 3 Pedro Regular Reclamo de Cobro No Reconocido
+     - 1 Juan VIP Reposición de Tarjeta
+     - 2 Maria Preferencial Activación de Tarjeta
+     - 3 Pedro Regular Reclamo de Cobro No Reconocido
       
 2. **historial.txt**: Este archivo contiene un registro de las solicitudes atendidas, con el siguiente formato: ID_Solicitud ID_Cliente Nombre_Cliente Tipo_Solicitud Descripción Estado
 
    - Ejemplo: 
-    - 1 1 Juan VIP Reposición de Tarjeta Pendiente
-    - 2 2 Maria Preferencial Preferencial Activación de Tarjeta En Proceso
-    - 3 3 Pedro Regular Reclamo de Cobro No Reconocido Atendida
+     - 1 1 Juan VIP Reposición de Tarjeta Pendiente
+     - 2 2 Maria Preferencial Preferencial Activación de Tarjeta En Proceso
+     - 3 3 Pedro Regular Reclamo de Cobro No Reconocido Atendida
 
 ## Limitaciones
 Las solicitudes deben ser de un tipo válido (VIP, Preferencial, Regular).
