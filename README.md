@@ -94,7 +94,7 @@ Este proyecto requiere un compilador de C++ que soporte el estándar C++11 o sup
 7. Añadir los cambios a GitHub, hacer un commit y subir los cambios:
    ```bash
    git add .
-   git commit -m "Initial commit with project structure and README"
+   git commit -m "Commit_Descripción"
    git push origin main
 
 ## Instrucciones de Uso
